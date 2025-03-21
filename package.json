@@ -1,0 +1,29 @@
+{
+  "name": "theme-botany",
+  "displayName": "%displayName%",
+  "description": "%description%",
+  "version": "1.0.0",
+  "publisher": "prabinpanta0",
+  "license": "MIT",
+  "icon": "./images/icon.ico",
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "id": "Botany",
+        "label": "Botany",
+        "uiTheme": "vs-dark",
+        "path": "./themes/botany-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microsoft/vscode.git"
+  }
+}
